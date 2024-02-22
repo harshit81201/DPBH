@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover, .menu li a.active {
+    color: #f0f0f0;
+  }
+  
+  .search {
+    display: flex;
+  }
+  
+  .search input {
+    border: none;
+    outline: none;
+    padding: 5px;
+  }
+  
+  .search button {
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    color: #333333;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #333333;
+  }
+  
+  header p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333333;
+    text-align: justify;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .card h3, .card p, .card a {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .card a {
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    color: #f0f0f0;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
